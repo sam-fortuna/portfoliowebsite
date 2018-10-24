@@ -33,13 +33,13 @@ class App extends Component {
         </a>
         <h2 className="padding-left">Medium</h2>
         </Grid.Column>        
-        <Grid.Column centered width={2}>
+        <Grid.Column centered width={2} textAlign="center">
         <a target="_blank" href="https://drive.google.com/file/d/13y60hwl_LVCPg5pK2WBS4NGLGJ_jZEad/view?usp=sharing">
         <img src={resume} className="sizing-resume" />
         </a>
         <h2 className="padding-left">Resume</h2>
         </Grid.Column>
-         <Grid.Column centered width={2}>
+         <Grid.Column centered width={2} textAlign="center">
          <a href="mailto:saf1119@gmail.com">
         <img src={email} className="sizing-email" />
         </a>

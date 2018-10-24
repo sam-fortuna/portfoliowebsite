@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
       	<Grid stackable centered verticalAlign="middle" id="aboutme">
       	<div className="new-background">
       	<Grid.Row stackable>
-      	<Grid.Column width={2}>
+      	<Grid.Column width={2} centered textAlign="center">
       	 <Image src={headshot} floated="left" className='image-sizing'/>
       	 <h1 />
       	</Grid.Column>
