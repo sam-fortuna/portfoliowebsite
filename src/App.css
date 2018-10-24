@@ -89,7 +89,7 @@ body {
 }
 
 .huge-padding {
-  padding-top: 550px;
+  padding-top: 470px;
 }
 
 .min-width {
@@ -100,7 +100,7 @@ body {
 .image-sizing {
   max-width: 300px;
   max-height: 360px;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 100px 15px;
 }
 
 .padding-around {
