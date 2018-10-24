@@ -10,11 +10,11 @@ class AboutMe extends React.Component {
       	<Grid stackable centered verticalAlign="middle" id="aboutme">
       	<div className="new-background">
       	<Grid.Row stackable>
-      	<Grid.Column>
+      	<Grid.Column width={2}>
       	 <Image src={headshot} floated="left" className='image-sizing'/>
       	 <h1 />
       	</Grid.Column>
-        <Grid.Column centered className="min-width">
+        <Grid.Column centered width={4}>
             <div className="contentinfo">
         	<h1 className="padding-around">About Me</h1>
         	<p>I’m a physics and English major turned full stack software engineer through Fullstack Academy of Code. Now, I’m working as a teaching fellow at Fullstack, helping others achieve their goals, and seeking a full-time software engineering position to apply my skills and continue solving new and interesting problems.</p>
