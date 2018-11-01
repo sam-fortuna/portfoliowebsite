@@ -12,7 +12,7 @@ class App extends Component {
       <div id="connect">
         <Grid stackable centered width={10}>
         <Grid.Row className="navBar">
-        <h1 className="padding-around">Let's connect</h1>
+        <h1 className="padding-around">Let's connect with each other</h1>
         </Grid.Row>
         <Grid.Row>
         <Grid.Column centered width={2} textAlign="center">

@@ -6,10 +6,22 @@ import AboutMe from './AboutMe'
 import Connect from './Connect'
 
 class App extends Component {
+  state = {
+    background: ''
+  }
+  // changeBackground = () => {
+  //   const backgrounds = ['background', 'backgroundimage2']
+  //   let counter = 0
+  //   setInterval(() => {
+  //     counter = (counter ? 0 : 1)
+  //     this.setState({ background: backgrounds[counter]})
+  //     console.log('herestate', this.state.background)
+  //   }, 10000)
+  // }
   render() {
     return (
       <div>
-      <div className="background">
+      <div className='background'>
       <h3 />              <br />
         <br />
         <br />
