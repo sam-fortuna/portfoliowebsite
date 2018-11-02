@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <div className='background'>
+      <div>
       <h3 />              <br />
         <br />
         <br />
