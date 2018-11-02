@@ -6,9 +6,9 @@ import AboutMe from './AboutMe'
 import Connect from './Connect'
 
 class App extends Component {
-  state = {
-    background: ''
-  }
+  // state = {
+  //   background: ''
+  // }
   // changeBackground = () => {
   //   const backgrounds = ['background', 'backgroundimage2']
   //   let counter = 0
@@ -20,7 +20,7 @@ class App extends Component {
   // }
   render() {
     return (
-      <div>
+      <div className="background">
       <div>
       <h3 />              <br />
         <br />
